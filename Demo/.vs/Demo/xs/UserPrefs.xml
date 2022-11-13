@@ -1,0 +1,66 @@
+﻿<Properties StartupConfiguration="{A8467369-75D4-4903-99CF-4B0E11B87B8B}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.BuildingBlocks.EventBus.Messages FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Microservice.CustomerWebApi PreferredExecutionTarget="/Applications/Firefox.app" />
+  <DisabledProjects>
+    <String>../ApiGate/ApiGate.csproj</String>
+    <String>../ApiGateway/ApiGateway.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Microservice.MovieService PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ApiGateway/Controller/GatewayController.cs">
+    <Files>
+      <File FileName="CustomerWebApi/Controllers/CustomerController.cs" Line="63" Column="20" IsPinned="True" />
+      <File FileName="ApiGateway/Controller/GatewayController.cs" Line="40" Column="28" IsPinned="True" />
+      <File FileName="ApiGateway/ocelot.json" Line="38" Column="30" IsPinned="True" />
+      <File FileName="ApiGateway/Program.cs" Line="16" Column="1" />
+      <File FileName="CustomerWebApi/Program.cs" Line="30" Column="1" />
+      <File FileName="MovieService/Dockerfile" Line="1" Column="1" />
+      <File FileName="docker-compose.yml" Line="40" Column="36" />
+      <File FileName="MovieService/Controller/MovieController.cs" Line="1" Column="1" />
+      <File FileName="MovieService/Models/Movie.cs" Line="2" Column="1" />
+      <File FileName="CustomerWebApi/Models/Customer.cs" Line="1" Column="1" />
+      <File FileName="CustomerWebApi/Models/CustomerDbContext.cs" Line="2" Column="1" />
+      <File FileName="ApiGateway/Models/EmptyClass.cs" Line="13" Column="1" />
+      <File FileName="MovieService/Models/MovieMessage.cs" Line="3" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Demo" expanded="True">
+            <Node name="ApiGateway" expanded="True">
+              <Node name="ApiGateway" expanded="True">
+                <Node name="Controller" expanded="True">
+                  <Node name="GatewayController.cs" selected="True" />
+                </Node>
+                <Node name="Models" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Microservice" expanded="True">
+              <Node name="MovieService" expanded="True">
+                <Node name="Dependencies" expanded="True">
+                  <Node name="PackageDependencies" expanded="True" />
+                </Node>
+                <Node name="Controller" expanded="True" />
+                <Node name="Models" expanded="True" />
+                <Node name="Service" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="docker-compose" expanded="True">
+              <Node name="docker-compose.yml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Microservice.MessageService FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+</Properties>
