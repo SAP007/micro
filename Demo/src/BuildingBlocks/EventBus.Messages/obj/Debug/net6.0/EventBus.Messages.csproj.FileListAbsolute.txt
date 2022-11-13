@@ -1,0 +1,12 @@
+/Users/sofie-amaliepetersen/Projects/Demo/src/BuildingBlocks/EventBus.Messages/bin/Debug/net6.0/EventBus.Messages.deps.json
+/Users/sofie-amaliepetersen/Projects/Demo/src/BuildingBlocks/EventBus.Messages/bin/Debug/net6.0/EventBus.Messages.dll
+/Users/sofie-amaliepetersen/Projects/Demo/src/BuildingBlocks/EventBus.Messages/bin/Debug/net6.0/EventBus.Messages.pdb
+/Users/sofie-amaliepetersen/Projects/Demo/src/BuildingBlocks/EventBus.Messages/obj/Debug/net6.0/EventBus.Messages.csproj.AssemblyReference.cache
+/Users/sofie-amaliepetersen/Projects/Demo/src/BuildingBlocks/EventBus.Messages/obj/Debug/net6.0/EventBus.Messages.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sofie-amaliepetersen/Projects/Demo/src/BuildingBlocks/EventBus.Messages/obj/Debug/net6.0/EventBus.Messages.AssemblyInfoInputs.cache
+/Users/sofie-amaliepetersen/Projects/Demo/src/BuildingBlocks/EventBus.Messages/obj/Debug/net6.0/EventBus.Messages.AssemblyInfo.cs
+/Users/sofie-amaliepetersen/Projects/Demo/src/BuildingBlocks/EventBus.Messages/obj/Debug/net6.0/EventBus.Messages.csproj.CoreCompileInputs.cache
+/Users/sofie-amaliepetersen/Projects/Demo/src/BuildingBlocks/EventBus.Messages/obj/Debug/net6.0/EventBus.Messages.dll
+/Users/sofie-amaliepetersen/Projects/Demo/src/BuildingBlocks/EventBus.Messages/obj/Debug/net6.0/refint/EventBus.Messages.dll
+/Users/sofie-amaliepetersen/Projects/Demo/src/BuildingBlocks/EventBus.Messages/obj/Debug/net6.0/EventBus.Messages.pdb
+/Users/sofie-amaliepetersen/Projects/Demo/src/BuildingBlocks/EventBus.Messages/obj/Debug/net6.0/ref/EventBus.Messages.dll

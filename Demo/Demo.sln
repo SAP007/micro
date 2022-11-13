@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieService", "MovieServic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageService", "MessageService\MessageService.csproj", "{A27C9AB8-B84A-42D5-8276-5EE1F88EF9C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSanity", "TestSanity\TestSanity.csproj", "{F82007DC-E038-4B2E-849A-B4A74DF5B5FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{A27C9AB8-B84A-42D5-8276-5EE1F88EF9C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A27C9AB8-B84A-42D5-8276-5EE1F88EF9C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A27C9AB8-B84A-42D5-8276-5EE1F88EF9C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F82007DC-E038-4B2E-849A-B4A74DF5B5FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F82007DC-E038-4B2E-849A-B4A74DF5B5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F82007DC-E038-4B2E-849A-B4A74DF5B5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F82007DC-E038-4B2E-849A-B4A74DF5B5FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,5 +70,6 @@ Global
 		{22B90804-1AAA-459D-8B28-AAE29D49FE91} = {8FEEE182-8E7E-4BE8-8A5E-0295C599AFA5}
 		{EA813F15-3708-41D4-8B3A-0D5F2770480A} = {B482063B-968B-4CBB-B9BA-2D22124708A9}
 		{A27C9AB8-B84A-42D5-8276-5EE1F88EF9C7} = {B482063B-968B-4CBB-B9BA-2D22124708A9}
+		{F82007DC-E038-4B2E-849A-B4A74DF5B5FF} = {B482063B-968B-4CBB-B9BA-2D22124708A9}
 	EndGlobalSection
 EndGlobal

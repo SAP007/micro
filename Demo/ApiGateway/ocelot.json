@@ -1,7 +1,7 @@
 ﻿{
   "Routes": [
     //Customer WEB API
-    
+
     {
       "UpstreamPathTemplate": "/api/customer/customers",
       "UpstreamHttpMethods": [ "Get" ],
@@ -30,7 +30,7 @@
 
     // Next Service can be added below
     {
-      "UpstreamPathTemplate": "/api/movies",
+      "UpstreamPathTemplate": "/api/message/movies",
       "UpstreamHttpMethods": [ "Get" ],
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
@@ -39,8 +39,21 @@
           "Port": 80
         }
       ],
-      "DownstreamPathTemplate": "/api/movies"
+      "DownstreamPathTemplate": "/api/message/movies"
+    },
+    {
+      "UpstreamPathTemplate": "/api/test",
+      "UpstreamHttpMethods": [ "Get" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "testsanity",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/test"
     }
+
 
   ],
   "GlobalConfiguration": {

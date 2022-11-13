@@ -57,11 +57,19 @@ services:
       context: .
       dockerfile: MessageService/Dockerfile
 
+  testsanity:
+    container_name: testsanity
+    image: ${DOCKER_REGISTRY-}testsanity
+    build:
+      context: .
+      dockerfile: TestSanity/Dockerfile
+
 volumes:
   pgdata:
 
 
   
+
 
 
 

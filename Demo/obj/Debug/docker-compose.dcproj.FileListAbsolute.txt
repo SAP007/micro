@@ -13,10 +13,14 @@
 /Users/sofie-amaliepetersen/Projects/Demo/bin/Debug/MessageService.deps.json
 /Users/sofie-amaliepetersen/Projects/Demo/bin/Debug/MessageService.runtimeconfig.json
 /Users/sofie-amaliepetersen/Projects/Demo/bin/Debug/MessageService
+/Users/sofie-amaliepetersen/Projects/Demo/bin/Debug/TestSanity.deps.json
+/Users/sofie-amaliepetersen/Projects/Demo/bin/Debug/TestSanity.runtimeconfig.json
+/Users/sofie-amaliepetersen/Projects/Demo/bin/Debug/TestSanity
 /Users/sofie-amaliepetersen/Projects/Demo/bin/Debug/ApiGateway.dll
 /Users/sofie-amaliepetersen/Projects/Demo/bin/Debug/CustomerWebApi.dll
 /Users/sofie-amaliepetersen/Projects/Demo/bin/Debug/MessageService.dll
 /Users/sofie-amaliepetersen/Projects/Demo/bin/Debug/MovieService.dll
+/Users/sofie-amaliepetersen/Projects/Demo/bin/Debug/TestSanity.dll
 /Users/sofie-amaliepetersen/Projects/Demo/bin/Debug/Microsoft.EntityFrameworkCore.dll
 /Users/sofie-amaliepetersen/Projects/Demo/bin/Debug/Npgsql.dll
 /Users/sofie-amaliepetersen/Projects/Demo/bin/Debug/Microsoft.EntityFrameworkCore.SqlServer.dll
@@ -39,6 +43,7 @@
 /Users/sofie-amaliepetersen/Projects/Demo/bin/Debug/ApiGateway.pdb
 /Users/sofie-amaliepetersen/Projects/Demo/bin/Debug/MovieService.pdb
 /Users/sofie-amaliepetersen/Projects/Demo/bin/Debug/MessageService.pdb
+/Users/sofie-amaliepetersen/Projects/Demo/bin/Debug/TestSanity.pdb
 /Users/sofie-amaliepetersen/Projects/Demo/obj/Debug/docker-compose.dcproj.AssemblyReference.cache
 /Users/sofie-amaliepetersen/Projects/Demo/obj/Debug/docker-compose.dcproj.CoreCompileInputs.cache
 /Users/sofie-amaliepetersen/Projects/Demo/obj/Debug/docker-compose.dcproj.CopyComplete

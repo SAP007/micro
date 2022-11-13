@@ -16,6 +16,7 @@ using System.Threading.Channels;
 using System.Runtime.InteropServices;
 using RabbitMQ.Client;
 using MessageService.Models;
+using System.Net;
 
 namespace MessageService.Controller
 {
@@ -31,11 +32,11 @@ namespace MessageService.Controller
             _config = config;
         }
 
-        [HttpPost("movies")]
-        public async void GetAllMovies()
+        [HttpGet("movies")]
+        public IActionResult GetAllMovies()
         {
             Console.WriteLine("HEEEEEEEEEERREEEEEEE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-
+            
             var factory = new ConnectionFactory()
             {
                 HostName = "rabbitmq"
@@ -75,10 +76,8 @@ namespace MessageService.Controller
                                      body: body);
                 Console.WriteLine(" [x] Sent {0}", message);
             }
+            return StatusCode(200);
         }
-
-
-
 
     }
 

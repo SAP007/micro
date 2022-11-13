@@ -82,9 +82,6 @@ C:/Users/Stina/Documents/DTU/3_Semester/Specialkursus_SE_E22/Microservice_tutori
 C:/Users/Stina/Documents/DTU/3_Semester/Specialkursus_SE_E22/Microservice_tutorial_E22/MyMicroservice/MovieService/obj/Debug/net6.0/MovieService.pdb
 C:/Users/Stina/Documents/DTU/3_Semester/Specialkursus_SE_E22/Microservice_tutorial_E22/MyMicroservice/MovieService/obj/Debug/net6.0/MovieService.genruntimeconfig.cache
 C:/Users/Stina/Documents/DTU/3_Semester/Specialkursus_SE_E22/Microservice_tutorial_E22/MyMicroservice/MovieService/obj/Debug/net6.0/ref/MovieService.dll
-/Users/sofie-amaliepetersen/Projects/Demo/MovieService/obj/Debug/net6.0/MovieService.dll
-/Users/sofie-amaliepetersen/Projects/Demo/MovieService/obj/Debug/net6.0/refint/MovieService.dll
-/Users/sofie-amaliepetersen/Projects/Demo/MovieService/obj/Debug/net6.0/MovieService.pdb
 /Users/sofie-amaliepetersen/Projects/Demo/MovieService/bin/Debug/net6.0/MovieService
 /Users/sofie-amaliepetersen/Projects/Demo/MovieService/bin/Debug/net6.0/MovieService.deps.json
 /Users/sofie-amaliepetersen/Projects/Demo/MovieService/bin/Debug/net6.0/MovieService.runtimeconfig.json
@@ -108,5 +105,8 @@ C:/Users/Stina/Documents/DTU/3_Semester/Specialkursus_SE_E22/Microservice_tutori
 /Users/sofie-amaliepetersen/Projects/Demo/MovieService/obj/Debug/net6.0/MovieService.AssemblyInfo.cs
 /Users/sofie-amaliepetersen/Projects/Demo/MovieService/obj/Debug/net6.0/MovieService.csproj.CoreCompileInputs.cache
 /Users/sofie-amaliepetersen/Projects/Demo/MovieService/obj/Debug/net6.0/MovieService.csproj.CopyComplete
+/Users/sofie-amaliepetersen/Projects/Demo/MovieService/obj/Debug/net6.0/MovieService.dll
+/Users/sofie-amaliepetersen/Projects/Demo/MovieService/obj/Debug/net6.0/refint/MovieService.dll
+/Users/sofie-amaliepetersen/Projects/Demo/MovieService/obj/Debug/net6.0/MovieService.pdb
 /Users/sofie-amaliepetersen/Projects/Demo/MovieService/obj/Debug/net6.0/MovieService.genruntimeconfig.cache
 /Users/sofie-amaliepetersen/Projects/Demo/MovieService/obj/Debug/net6.0/ref/MovieService.dll
