@@ -41,14 +41,6 @@ services:
     environment:
      - "RABBITMQ_DEFAULT_PASS=guest"
      - "RABBITMQ_DEFAULT_USER=guest"
-    
-  movieservice:
-    container_name: movieservice
-    image: ${DOCKER_REGISTRY-}movieservice
-    build:
-      context: .
-      dockerfile: MovieService/Dockerfile
-    
 
   messageservice:
     container_name: messageservice
@@ -64,11 +56,24 @@ services:
       context: .
       dockerfile: TestSanity/Dockerfile
 
+  movieservice:
+    container_name: movieservice
+    image: ${DOCKER_REGISTRY-}movieservice
+    build:
+      context: .
+      dockerfile: MovieService/Dockerfile
+    restart: on-failure
+    depends_on:
+      - rabbitmq
+    links: 
+        - rabbitmq
+
 volumes:
   pgdata:
 
 
   
+
 
 
 

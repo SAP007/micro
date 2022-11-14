@@ -1,4 +1,6 @@
-﻿namespace MovieService.Models
+﻿using System;
+
+namespace MovieService.Models
 {
     public class MovieMessage
     {

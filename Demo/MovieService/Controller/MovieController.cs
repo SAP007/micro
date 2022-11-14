@@ -24,7 +24,7 @@ namespace MovieService.Controller
         public string MessageRecieved(string inMessage)
         {
             Console.WriteLine(" - Message Recieved");
-            
+
             //var list = new List<Object>();
             var list = new List<string>();
 
@@ -34,7 +34,7 @@ namespace MovieService.Controller
             if (movieMessage.FunctionToExecute == "GetAllMovies")
             {
                 list = _movieService.GetAllMovies();
-                
+
             }
             else if (movieMessage.FunctionToExecute == "SearchMovies")
             {

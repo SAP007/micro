@@ -31,7 +31,7 @@ namespace MovieService
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
             _logger.LogInformation($"Queue [{InQueueName}] is waiting for messages.");
-            
+            System.Threading.Thread.Sleep(60000);
             var factory = new ConnectionFactory { HostName = "rabbitmq" };
             factory.UserName = "guest";
             factory.Password = "guest";
@@ -56,6 +56,8 @@ namespace MovieService
                 // publish result on outChannel and keep listening for more messages
                 var outMessage = _movieController.MessageRecieved(inMessage);
                 var outBody = Encoding.UTF8.GetBytes(outMessage);
+                Console.WriteLine("Made it so FAAAAAAR");
+                Console.WriteLine(outBody.ToString());
                 outChannel.BasicPublish(exchange: "", routingKey: "resmovie", basicProperties: null, body: outBody);
 
                 inChannel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: false);

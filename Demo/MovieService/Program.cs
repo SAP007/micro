@@ -11,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 //builder.Services.AddSingleton<IMovieService, Service>(); //  created the first time they are requested
 
-builder.Services.AddScoped<IMovieService, Service>(); // once per request
+builder.Services.AddSingleton<IMovieService, Service>(); // once per request
 builder.Services.AddSingleton<MovieController>();
 builder.Services.AddHostedService<Worker>();
 

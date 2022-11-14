@@ -1,54 +1,39 @@
-﻿<Properties StartupConfiguration="{A8467369-75D4-4903-99CF-4B0E11B87B8B}|Default">
+﻿<Properties StartupConfiguration="{6477FAA6-E037-4584-BE19-DFB92DE0EF23}|Default">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.Microservice.CustomerWebApi PreferredExecutionTarget="/Applications/Firefox.app" />
-  <DisabledProjects>
-    <String>../ApiGate/ApiGate.csproj</String>
-    <String>../ApiGateway/ApiGateway.csproj</String>
-  </DisabledProjects>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Microservice.MovieService PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ApiGateway/ocelot.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MessageService/Controller/MessageController.cs">
     <Files>
-      <File FileName="ApiGateway/ocelot.json" Line="62" Column="1" IsPinned="True" />
-      <File FileName="ApiGateway/Program.cs" Line="9" Column="1" />
-      <File FileName="CustomerWebApi/Program.cs" Line="21" Column="1" />
+      <File FileName="ApiGateway/ocelot.json" Line="33" Column="32" IsPinned="True" />
+      <File FileName="MovieService/Controller/MovieController.cs" Line="51" Column="1" />
+      <File FileName="MovieService/Models/Movie.cs" Line="19" Column="1" />
+      <File FileName="MovieService/Models/MovieMessage.cs" Line="14" Column="1" />
+      <File FileName="MovieService/Worker.cs" Line="78" Column="1" />
+      <File FileName="MovieService/Program.cs" Line="16" Column="16" />
+      <File FileName="MovieService/Service/IMovieService.cs" Line="19" Column="1" />
+      <File FileName="MovieService/Service/Service.cs" Line="47" Column="1" />
+      <File FileName="docker-compose.yml" Line="60" Column="33" />
       <File FileName="MovieService/Dockerfile" Line="1" Column="1" />
-      <File FileName="docker-compose.yml" Line="61" Column="31" />
-      <File FileName="MovieService/Controller/MovieController.cs" Line="11" Column="4" />
-      <File FileName="MovieService/Models/Movie.cs" Line="2" Column="1" />
-      <File FileName="CustomerWebApi/Models/Customer.cs" Line="1" Column="1" />
-      <File FileName="CustomerWebApi/Models/CustomerDbContext.cs" Line="2" Column="1" />
-      <File FileName="MovieService/Models/MovieMessage.cs" Line="12" Column="1" />
-      <File FileName="MovieService/Worker.cs" Line="35" Column="71" />
-      <File FileName="CustomerWebApi/Controllers/CustomerController.cs" Line="13" Column="20" />
-      <File FileName="docker-compose.override.yml" Line="1" Column="1" />
-      <File FileName="ApiGateway/Dockerfile" Line="1" Column="1" />
-      <File FileName="MovieService/Service/Service.cs" Line="28" Column="1" />
-      <File FileName="MessageService/Program.cs" Line="16" Column="22" />
-      <File FileName="MessageService/Models/EmptyClass.cs" Line="10" Column="23" />
-      <File FileName="MessageService/Dockerfile" Line="1" Column="1" />
-      <File FileName="MessageService/Controller/MessageController.cs" Line="40" Column="1" />
-      <File FileName="CustomerWebApi/Properties/launchSettings.json" Line="24" Column="21" />
-      <File FileName="TestSanity/Program.cs" Line="10" Column="1" />
-      <File FileName="TestSanity/Controller/TestController.cs" Line="13" Column="18" />
-      <File FileName="TestSanity/Dockerfile" Line="1" Column="1" />
+      <File FileName="MessageService/Controller/MessageController.cs" Line="47" Column="40" />
+      <File FileName="CustomerWebApi/Controllers/CustomerController.cs" Line="1" Column="1" />
+      <File FileName="CustomerWebApi/Program.cs" Line="28" Column="1" />
+      <File FileName="MessageService/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Demo" expanded="True">
             <Node name="ApiGateway" expanded="True">
-              <Node name="ApiGateway" expanded="True">
-                <Node name="ocelot.json" selected="True" />
-              </Node>
+              <Node name="ApiGateway" expanded="True" />
             </Node>
             <Node name="Microservice" expanded="True">
-              <Node name="TestSanity" expanded="True">
+              <Node name="CustomerWebApi" expanded="True">
+                <Node name="Controllers" expanded="True" />
+              </Node>
+              <Node name="MessageService" expanded="True">
                 <Node name="Controller" expanded="True" />
+              </Node>
+              <Node name="MovieService" expanded="True" selected="True">
+                <Node name="Dependencies" expanded="True" />
+                <Node name="appsettings.json" expanded="True" />
               </Node>
             </Node>
             <Node name="docker-compose" expanded="True">
@@ -62,5 +47,16 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <DisabledProjects>
+    <String>../ApiGate/ApiGate.csproj</String>
+    <String>../ApiGateway/ApiGateway.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Microservice.CustomerWebApi PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.ItemProperties.Microservice.MovieService PreferredExecutionTarget="/Applications/Firefox.app" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

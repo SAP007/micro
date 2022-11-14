@@ -3,6 +3,8 @@ using MovieService.Models;
 using Npgsql;
 using MovieService;
 using MovieService.Service;
+using System;
+using System.Collections.Generic;
 
 // Service + data access layer combined 
 
@@ -12,7 +14,7 @@ namespace MovieService.Service
     {
         private static string Host = "localhost";
         private static string User = "postgres";
-        private static string DBname = "dvdrental"; 
+        private static string DBname = "dvdrental";
         private static string Password = "admin";
         private static string Port = "5432";
 
@@ -30,7 +32,9 @@ namespace MovieService.Service
         {
             Console.Out.WriteLine(" - GetAllMovies() enabled");
             var movieList = new List<string>();
+            movieList.Add("HELLO Stuff is working! :)");
 
+            /*
             var movieList2 = new List<Object>();
 
             using (var conn = new NpgsqlConnection(connString))
@@ -41,9 +45,6 @@ namespace MovieService.Service
                 using (var command = new NpgsqlCommand("SELECT title FROM movie", conn))
                 {
                     var reader = command.ExecuteReader();
-
-
-
 
 
                     while (reader.Read())
@@ -59,10 +60,12 @@ namespace MovieService.Service
                     };
                     reader.Close();
                     Console.Out.WriteLine("   - Connection closed");
-
+            
                 }
                 //movieList.ForEach(Console.WriteLine);
+           
             }
+             */
             return movieList;
         }
 

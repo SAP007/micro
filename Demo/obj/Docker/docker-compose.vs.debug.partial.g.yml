@@ -86,12 +86,16 @@ services:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "MovieService"
     environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
       - /Users/sofie-amaliepetersen/Projects/Demo/MovieService:/app
+      - /Users/sofie-amaliepetersen/Projects/Demo:/src
       - /Users/sofie-amaliepetersen/vsdbg/vs2017u5:/remote_debugger:rw
       - /Users/sofie-amaliepetersen/.nuget/packages/:/root/.nuget/packages:ro
       - /usr/local/share/dotnet/sdk/NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
