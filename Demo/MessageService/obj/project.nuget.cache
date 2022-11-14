@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "cx9r3EYLhGlEjeSjvB+qyFVhCtDJe7IFQb2WRI3SVE4V0tC/CDEFOrpAv8V1H7qO+LDFiZpWs9yuNp0wNRDcmA==",
+  "dgSpecHash": "CxIK4MvG9wir71HX1pqEsCgxtd/C3RocfQ0sx43Vf7g+s5TCc5qoWlF8kpK8VlXCkbot3vXt+6VrOjwv/pA0RQ==",
   "success": true,
-  "projectFilePath": "/Users/sofie-amaliepetersen/Projects/Demo/MessageService/MessageService.csproj",
+  "projectFilePath": "C:\\Users\\Stina\\Documents\\DTU\\3_Semester\\Specialkursus_SE_E22\\micro\\Demo\\MessageService\\MessageService.csproj",
   "expectedPackageFiles": [
-    "/Users/sofie-amaliepetersen/.nuget/packages/rabbitmq.client/6.4.0/rabbitmq.client.6.4.0.nupkg.sha512",
-    "/Users/sofie-amaliepetersen/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
-    "/Users/sofie-amaliepetersen/.nuget/packages/system.threading.channels/4.7.1/system.threading.channels.4.7.1.nupkg.sha512"
+    "C:\\Users\\Stina\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
+    "C:\\Users\\Stina\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Stina\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }

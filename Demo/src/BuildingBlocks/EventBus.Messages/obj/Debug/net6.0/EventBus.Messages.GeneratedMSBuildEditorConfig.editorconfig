@@ -7,4 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EventBus.Messages
-build_property.ProjectDir = /Users/sofie-amaliepetersen/Projects/Demo/src/BuildingBlocks/EventBus.Messages/
+build_property.ProjectDir = C:\Users\Stina\Documents\DTU\3_Semester\Specialkursus_SE_E22\micro\Demo\src\BuildingBlocks\EventBus.Messages\

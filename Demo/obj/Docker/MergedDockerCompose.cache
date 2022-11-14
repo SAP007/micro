@@ -1,8 +1,8 @@
-name: dockercompose13727594402455263897
+name: dockercompose14310490881306168310
 services:
   apigateway:
     build:
-      context: /Users/sofie-amaliepetersen/Projects/Demo
+      context: C:\Users\Stina\Documents\DTU\3_Semester\Specialkursus_SE_E22\micro\Demo
       dockerfile: ApiGateway/Dockerfile
     container_name: apigateway
     environment:
@@ -20,7 +20,7 @@ services:
       protocol: tcp
   customerwebapi:
     build:
-      context: /Users/sofie-amaliepetersen/Projects/Demo
+      context: C:\Users\Stina\Documents\DTU\3_Semester\Specialkursus_SE_E22\micro\Demo
       dockerfile: CustomerWebApi/Dockerfile
     container_name: customer-api
     environment:
@@ -54,7 +54,7 @@ services:
       volume: {}
   messageservice:
     build:
-      context: /Users/sofie-amaliepetersen/Projects/Demo
+      context: C:\Users\Stina\Documents\DTU\3_Semester\Specialkursus_SE_E22\micro\Demo
       dockerfile: MessageService/Dockerfile
     container_name: messageservice
     environment:
@@ -72,20 +72,20 @@ services:
       protocol: tcp
     volumes:
     - type: bind
-      source: /Users/sofie-amaliepetersen/.aspnet/https
+      source: C:\Users\Stina\.aspnet\https
       target: /root/.aspnet/https
       read_only: true
       bind:
         create_host_path: true
     - type: bind
-      source: /Users/sofie-amaliepetersen/.microsoft/usersecrets
+      source: C:\Users\Stina\.microsoft\usersecrets
       target: /root/.microsoft/usersecrets
       read_only: true
       bind:
         create_host_path: true
   movieservice:
     build:
-      context: /Users/sofie-amaliepetersen/Projects/Demo
+      context: C:\Users\Stina\Documents\DTU\3_Semester\Specialkursus_SE_E22\micro\Demo
       dockerfile: MovieService/Dockerfile
     container_name: movieservice
     depends_on:
@@ -109,13 +109,13 @@ services:
     restart: on-failure
     volumes:
     - type: bind
-      source: /Users/sofie-amaliepetersen/.aspnet/https
+      source: C:\Users\Stina\.aspnet\https
       target: /root/.aspnet/https
       read_only: true
       bind:
         create_host_path: true
     - type: bind
-      source: /Users/sofie-amaliepetersen/.microsoft/usersecrets
+      source: C:\Users\Stina\.microsoft\usersecrets
       target: /root/.microsoft/usersecrets
       read_only: true
       bind:
@@ -140,7 +140,7 @@ services:
     restart: always
   testsanity:
     build:
-      context: /Users/sofie-amaliepetersen/Projects/Demo
+      context: C:\Users\Stina\Documents\DTU\3_Semester\Specialkursus_SE_E22\micro\Demo
       dockerfile: TestSanity/Dockerfile
     container_name: testsanity
     environment:
@@ -158,20 +158,20 @@ services:
       protocol: tcp
     volumes:
     - type: bind
-      source: /Users/sofie-amaliepetersen/.aspnet/https
+      source: C:\Users\Stina\.aspnet\https
       target: /root/.aspnet/https
       read_only: true
       bind:
         create_host_path: true
     - type: bind
-      source: /Users/sofie-amaliepetersen/.microsoft/usersecrets
+      source: C:\Users\Stina\.microsoft\usersecrets
       target: /root/.microsoft/usersecrets
       read_only: true
       bind:
         create_host_path: true
 networks:
   default:
-    name: dockercompose13727594402455263897_default
+    name: dockercompose14310490881306168310_default
 volumes:
   pgdata:
-    name: dockercompose13727594402455263897_pgdata
+    name: dockercompose14310490881306168310_pgdata

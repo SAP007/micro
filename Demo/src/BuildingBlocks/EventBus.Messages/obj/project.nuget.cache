@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y09dyZsTp92jQIkQ2jBe1oZdt2d7Uw+NybNdOfrpS4HLCaNwty1ElnefGsbE1dzPyiDzXxhoCqYsH3BUV6bP8A==",
+  "dgSpecHash": "jYiPNfACFUmDHJyAIBLShpeGT8DGFOUOzxq9Q0iOgI2q4pJ6vrVyP7Xllv0ldVM64JVbQFc0sPkSb6t7ii6Hww==",
   "success": true,
-  "projectFilePath": "/Users/sofie-amaliepetersen/Projects/Demo/src/BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj",
+  "projectFilePath": "C:\\Users\\Stina\\Documents\\DTU\\3_Semester\\Specialkursus_SE_E22\\micro\\Demo\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

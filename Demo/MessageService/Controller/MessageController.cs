@@ -26,9 +26,11 @@ namespace MessageService.Controller
     {
 
         private readonly IConfiguration _config;
+        private readonly ILogger<Worker> _logger;
 
-        public MessageController(IConfiguration config)
+        public MessageController(ILogger<Worker> logger, IConfiguration config)
         {
+            _logger = logger;
             _config = config;
         }
 
@@ -77,6 +79,12 @@ namespace MessageService.Controller
                 Console.WriteLine(" [x] Sent {0}", message);
             }
             return StatusCode(200);
+        }
+        public void MessageRecieved(string message)
+        {
+            _logger.LogInformation($"HALOOO FROM MESSAGE CONTROLLEWR: {message}");
+            Console.WriteLine(" ******* HALOOO FROM MESSAGE CONTROLLEWR ****** ");
+            Console.WriteLine(message);
         }
 
     }
